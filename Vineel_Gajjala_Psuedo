@@ -1,0 +1,47 @@
+The Narrator will say, "Who would you like to kill"
+The Mafia will silently point at whoever they would like to kill
+The Narrator Will Say, "Mafia go to sleep"
+The Narrator will say, "Medic Wake up,"
+The Medic will open their eyes
+All Players eyes except the Medic will be closed
+The Narrator will say, "Point at whoever you like to heal,"
+The Medic will point to any player currently alive
+The Narrator will say, "Medic Go To Sleep"
+Medic will close their eyes
+The Narrator will say, "Detective Wake up."
+The Detective will open his eyes
+The Narrator will say, “Who do you think Mafia is?"
+The Detective will point at whoever they think Mafia is
+If the detective points at Mafia:
+	The Narrator will Nod at them
+Else the Detective points at someone who is not mafia:
+	The Narrator will shake their head no
+The Narrator will say "Detective go to sleep"
+Detective closes their eyes
+The Narrator will say "Everyone Wake Up"
+The Narrator will tell everyone which player was killed or was attempted to be killed by the Mafia
+if the healer chose the person who the mafia killed:
+	Then the player who the Mafia tried to kill will live;
+Else the healer chose anyone else:
+	The Mafia successfully killed the person that they meant to;
+The Narrator will say, "Discuss among yourselves who you think is Mafia
+Players can accuse or defend their fellow players
+After a short period, the Narrator will say, "Time's Up. Who do you think is Mafia?"
+The Citizens, Including the Mafia, Detective, and Healer, will vote
+Whoever gets the most votes is killed off
+That person will reveal their card
+If they were Mafia:
+	The Game is over and the Citizens Win;
+Else if they were a regular person of the city:
+	The Game continues and that citizen is dead;
+Else they were a Healer or A detective:
+	There turn while everyone is sleeping will be skipped and they are dead
+}
+Repeat until one of the following circumstances occur,
+1. The Mafia is voted to be killed in which case the townspeople wins
+Or
+2. The Mafia kills everyone in the village in which case the Mafia wins
+
+Once either of these situations occurs,
+The game is over and you can play again if you like
+
